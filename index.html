@@ -31,11 +31,69 @@
 <main>
 
     <div id="openModal" class="modal">
+      <a href="#close" class="modal-area"></a>
         <div class="modal-dialog">
+          <div class="modal-content">
           <!--<div class="modal-content">-->
             <!--<div class="modal-header">-->
-             <!--<h3 class="modal-title">Название</h3>-->
-              <a href="#close" title="Close" class="close">×</a>
+             <h3 class="modal-title">Оставьте свои данные, мы вам перезвоним</h3>
+             <a href="#close" title="Close" class="close">x</a>
+             <label class="modal-content-label">
+              Имя
+              <input class="modal-content-imput" type="text" name="user-name">
+              <svg class="modal-content-icon" width="18px" height="18px">
+                <use href="./svgmodal/spritemodal.svg.svg#icon-person"></use>
+              </svg>
+            </label>
+             <label class="modal-content-label">
+                Телефон
+              <input class="modal-content-imput" type="tel" name="user-phone"> 
+              <svg class="modal-content-icon" width="18px" height="18px">
+                <use href="./svgmodal/spritemodal.svg.svg#icon-phone"></use>
+              </svg>
+            </label>          
+            <label class="modal-content-label">
+              Почта
+              <input class="modal-content-imput" type="email" name="user-mail"> 
+              <svg class="modal-content-icon" width="18px" height="18px">
+                <use href="./svgmodal/spritemodal.svg.svg#icon-email"></use>
+              </svg>
+            </label>          
+            <label class="modal-content-label">
+              Комментарий
+              <textarea class="modal-content-imput coments" name="user-comments" rows="10" placeholder="Введите текст"></textarea>
+            </label>     
+            <div class="checkwindow">
+              <label class="modal-content-check">
+                <input class="indent" type="checkbox" name="user-contract" width="11px" height="8px">
+                <a class="link-agreement" href=""> Соглашаюсь с рассылкой и принимаю</a><a class="link-contract" href="">Условия договора</a>
+              <span class="input-check-castom" class="modal-input-check hidden">
+                <svg width="14px" height="13px"><use href="./svgmodalcheck/spritemodal-check.svg#icon-check"></use></svg>
+                <span class="input-check-castom"><svg width="14px" height="13px"><use href="./svgmodalcheck/spritemodal-check.svg#icon-square"></use></svg>
+                <!--<input class="modal-input-check hidden" type="checkbox" name="user-contract">-->
+                
+             </span>
+              </label>
+              </div>
+<!--<label class="check option">
+  class="modal-input-check hidden"
+  <input class="check-input" type="checkbox">
+  <span class="check-box"><svg width="14px" height="13px"><use href="./svgmodalcheck/spritemodal-check.svg#icon-check"></use></svg></span>
+  <span class="check-box"><svg width="14px" height="13px"><use href="./svgmodalcheck/spritemodal-check.svg#icon-square"></use></svg></span>
+  <a class="link-agreement" href="">Соглашаюсь с рассылкой и принимаю</a><a class="link-contract" href="">Условия договора</a>
+</label>-->
+
+              <button class="modal-content-button" type="submit">Отправить</button>
+            </div>
+          </div>
+        </div>
+      </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+             <!---<a href="#close" title="Close" class="close">×</a>
             </div>
             <div class="modal-body">    
               <p class="modal-name">Оставьте свои данные, мы вам перезвоним</p>
@@ -66,12 +124,12 @@
                 
               </label>     
               <div class="checkwindow">  
-              <label class="modal-content-check">
+              <label class="modal-content-check">-->
                 <!--<input class="modal-input-check hidden" type="checkbox" name="user-contract">-->
-                <a class="link" href="">Условия договора</a>Соглашаюсь с рассылкой и принимаю 
+                <!--<a class="link" href="">Условия договора</a>Соглашаюсь с рассылкой и принимаю 
                 <span class="input-check-castom"><input class="modal-input-check hidden" type="checkbox" name="user-contract" width="11px" height="8px" ><!--<svg width="14px" height="13px">
                   <use href=""></use>-->
-                </svg>
+                <!--</svg>
               </span>
               </label>
               </div>
@@ -85,6 +143,9 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
+      </div>-->
       <!-- openModal - id модального окна (элемента div) -->
 <!--<a href="#openModal">Открыть модальное окно</a>-->
 
@@ -277,8 +338,8 @@
 </main>
 
 <!--Футер-->
-<div class="background-lengthening-footer">
-<footer id="contacts" class="container">
+<footer class="background-lengthening-footer" id="contacts">
+  <div class="container">
     <div class="row">
     <div class="column">
         <ul class="text-footer">
@@ -338,6 +399,7 @@
   </div>
 </div>
   </div>
+</div>
 </footer>
 </body>
 </html>
