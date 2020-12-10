@@ -204,8 +204,7 @@ background-color: #2F303A;
   padding-bottom:280px;
   background-color: #c4c4c4;
  text-align: center;
- background-image: linear-gradient( rgba(47 48 58 / 40%), rgba(47, 48, 58, 0.4)),
-   url(../images/images-hm4/Img2optim.jpg);
+ background-image: url(../../goit-markup-hw-04/images/images-hm4/Img2optim.jpg), linear-gradient( rgba(47, 48, 58, 0.4)), rgba(47, 48, 58, 0.4);
  background-repeat: no-repeat;
  background-size: cover;
 /*background-attachment: fixed;
