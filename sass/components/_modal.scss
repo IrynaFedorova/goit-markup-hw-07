@@ -74,12 +74,13 @@ body {
     background: #fff;
     left: 92%;
     top: 2%;
-  }
+ 
   
-  .close:hover,
-  .close:focus{
-    color: var(--accent-color);
+  &:hover,
+  &:focus{
+    color: $accent-color;
   }
+}
   
   .modal-title{
   
@@ -132,15 +133,16 @@ body {
     transition-property: border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
   
-  .modal-content-imput:focus,
-  .modal-content-imput:hover {
-    border: 1px solid var(--accent-color);
+  
+  &:focus,
+  &:hover {
+    border: 1px solid $accent-color;
   }
+}
   .modal-content-imput:focus ~ .modal-content-icon,
   .modal-content-imput:hover ~ .modal-content-icon {
-    fill: var(--accent-color);
+    fill: $accent-color;
   }
   .modal-content-imput.coments {
     padding-left: 16px;
@@ -232,7 +234,7 @@ body {
   
   .link-contract{
     margin-left: 4px;
-    color: var(--accent-color);
+    color: $accent-color;
     text-decoration: underline;
     text-align: center;
     font-family: Roboto;
@@ -298,16 +300,16 @@ body {
   }
   
   /*.indent:checked + .input-check-castom{
-  border-color: var(--accent-color);
-  background-color: var(--accent-color);
+  border-color: $accent-color;
+  background-color: $accent-color;
   background-image: url(./svgmodalcheck/spritemodal-check.svg#icon-check);
   background-size: contain;
   background-origin: border-box;
   }*/
   
   .indent:checked ~ .input-check-castom {
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
+  background-color: $accent-color;
+  border-color: $accent-color;
   }
   
   .indent{
@@ -326,12 +328,12 @@ body {
   
   
   .modal-input-check:checked ~ .input-check-castom {
-    background-color: var(--accent-color);
-    border-color: var(--accent-color);
+    background-color: $accent-color;
+    border-color: $accent-color;
   }
   .modal-content-check .link {
     margin-left: 4px;
-    color: var(--accent-color);
+    color: $accent-color;
     text-decoration: underline;
   }
   .modal-content-button {
@@ -359,11 +361,11 @@ body {
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .modal-content-button:hover,
-  .modal-content-button:focus {
+  
+  &:hover,
+  &:focus {
     background: #188ce8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
   }
-  
+}

@@ -7,19 +7,21 @@
     display: block;
     border-radius: 50%;
     /*fill: #afb1b8;*/
-    fill: #AFB1B8;
-      }
+    fill: #AFB1B8;      
+
   
-    .team-networks-list:not(:last-child) {
-    margin-right: 10px;
-      }
-  
-   .team-networks-links:hover,
-    .team-networks-links:focus {
+   &:hover,
+   &:focus {
         border-radius: 50%;
-        background-color: var(--accent-color);
+        background-color: $accent-color;
         fill: #ffffff;
       }
+    }
+
+      .team-networks-list:not(:last-child) {
+        margin-right: 10px;
+          }
+
       .footer-networks .footer-networks-links {
         padding: 12px;
         
@@ -30,14 +32,15 @@
         
         background-color: rgba(255, 255, 255, 0.1);
         fill: #ffffff;
-        }
-        .footer-networks-list:not(:last-child) {
-        margin-right: 10px;
-        }
-        .footer-networks-links:hover,
-        .footer-networks-links:focus {
+        
+        &:hover,
+        &:focus {
         border-radius: 50%;
-        background-color: var(--accent-color);
+        background-color: $accent-color;
         fill: #ffffff;
         }
-        
+      }
+
+      .footer-networks-list:not(:last-child) {
+        margin-right: 10px;
+        }

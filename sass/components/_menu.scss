@@ -2,10 +2,16 @@
     display: inline-flex;
     align-items: center;
   
-  }
   
+  
+  &.a:hover, 
+  &.a:focus{
+    color: $accent-color;
+  }
+}
+
   .site-nav-list a{
-    color: var(--title-text-color);
+    color: $title-text-color;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -15,13 +21,9 @@
     padding-right:50px;
   }
   
-  .site-nav-list .a:hover, 
-  .site-nav-list .a:focus{
-    color: var(--accent-color);
-  }
   
   .site-nav-list .a .current{
-    color:var(--accent-color);
+    color:$accent-color;
   }
   
   
@@ -51,16 +53,17 @@ padding-left: 10px;
     font-size: 14px;
     line-height: 1,14px;
     text-decoration: none;
+  
+  
+  &:hover, 
+  &:focus{
+    color: $accent-color;
   }
   
-  .site-nav-list-address .a:hover, 
-  .site-nav-list-address .a:focus{
-    color: var(--accent-color);
+  &.current{
+    color:$accent-color;
   }
-  
-  .site-nav-list-address .a .current{
-    color:var(--accent-color);
-  }
+}
   
   .site-nav .contacts-item:last-child{
     margin-right: 0;
@@ -69,9 +72,9 @@ padding-left: 10px;
   .link.current {
     position: relative;
     
-    color: var(--accent-color);
-    }
-    .link.current::after {
+    color: $accent-color;
+   
+    &::after {
     content: '';
     display: block;
     position: absolute;
@@ -81,17 +84,18 @@ padding-left: 10px;
     height: 4px;
     width: 50%;
     
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     border-radius: 2px;
     }
+  }
     
     .link.currentSecond {
     position: relative;
     
-    color: var(--accent-color);
-    }
+    color: $accent-color;
     
-    .link.currentSecond::after {
+    
+    &::after {
     content: '';
     display: block;
     position: absolute;
@@ -101,13 +105,13 @@ padding-left: 10px;
     height: 4px;
     width: 78px;
     
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     border-radius: 2px;
     }
-    
+  }
     .link:hover,
     .link:focus {
-    color: var(--accent-color);
+    color: $accent-color;
     }
     .color-page{
       color: #2196F3;
@@ -128,10 +132,10 @@ padding-left: 10px;
       
       .site-nav-list-address.address-link:focus .address-link-icon,
       .address-link:hover .address-link-icon{
-      fill: var(--accent-color);
+      fill: $accent-color;
       }
       
       li.contacts-item:focus,
       li.contacts-item:hover {
-      fill: var(--accent-color);
+      fill: $accent-color;
       }
