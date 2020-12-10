@@ -776,7 +776,7 @@ li.contacts-item:hover {
 /*Hero*/
 .hero {
   background-color: #2F303A;
-  /*background-image: url(../../goit-markup-hw-07/images/images-hm4/Img2optim.jpg);*/
+  background-image: url(../images/images-hm4/Img2optim.jpg);
 }
 
 .hero-name {
@@ -804,12 +804,13 @@ li.contacts-item:hover {
   padding-left: 15px;
   padding-top: 200px;
   padding-bottom: 280px;
-  background-color: #c4c4c4;
+  background-color: #2f303a;
   text-align: center;
-  background-image: url(../../../GitHub/goit-markup-hw-07/images/images-hm4/Img2optim.jpg), -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), rgba(47, 48, 58, 0.4);
-  background-image: url(../../../GitHub/goit-markup-hw-07/images/images-hm4/Img2optim.jpg), linear-gradient(rgba(47, 48, 58, 0.4)), rgba(47, 48, 58, 0.4);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/images-hm4/Img2optim.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/images-hm4/Img2optim.jpg");
+  /*background-image: url(../../../../GitHub/goit-markup-hw-07/images/images-hm4/Img2optim.jpg), linear-gradient( rgba(47, 48, 58, 0.4)), rgba(47, 48, 58, 0.4);
+   background-repeat: no-repeat;
+   background-size: cover;
   /*background-attachment: fixed;
   background-position: top 100px center;*/
 }
@@ -817,7 +818,7 @@ li.contacts-item:hover {
 /*style*/
 .hero {
   background-color: #2F303A;
-  /*background-image: url(../../goit-markup-hw-07/images/images-hm4/Img2optim.jpg);*/
+  background-image: url(../images/images-hm4/Img2optim.jpg);
 }
 
 .hero-name {
@@ -845,12 +846,13 @@ li.contacts-item:hover {
   padding-left: 15px;
   padding-top: 200px;
   padding-bottom: 280px;
-  background-color: #c4c4c4;
+  background-color: #2f303a;
   text-align: center;
-  background-image: url(../../../GitHub/goit-markup-hw-07/images/images-hm4/Img2optim.jpg), -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), rgba(47, 48, 58, 0.4);
-  background-image: url(../../../GitHub/goit-markup-hw-07/images/images-hm4/Img2optim.jpg), linear-gradient(rgba(47, 48, 58, 0.4)), rgba(47, 48, 58, 0.4);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/images-hm4/Img2optim.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/images-hm4/Img2optim.jpg");
+  /*background-image: url(../../../../GitHub/goit-markup-hw-07/images/images-hm4/Img2optim.jpg), linear-gradient( rgba(47, 48, 58, 0.4)), rgba(47, 48, 58, 0.4);
+   background-repeat: no-repeat;
+   background-size: cover;
   /*background-attachment: fixed;
   background-position: top 100px center;*/
 }
